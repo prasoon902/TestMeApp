@@ -22,7 +22,7 @@ Feature: Title of your feature
 
   @data-driven
   Scenario: The one where the user change some of the data and place the order
-    When  Larry increase the headphone quantity by 2
-    And continue for checkout
+    When Larry increase the headphone quantity by 2
+    And continue for checkout 
     And change the shipping address to a new address as "Pune"
     Then the product should be delivered to the new address
